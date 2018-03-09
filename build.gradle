@@ -1,6 +1,10 @@
-allprojects {
-    repositories {
-        jcenter()
-        maven { url "https://jitpack.io" }
-    }
+apply plugin: 'java'
+
+group = 'com.github.glebbash'
+
+sourceCompatibility = 1.6 // java 6
+targetCompatibility = 1.6
+
+repositories {
+  mavenCentral()
 }
